@@ -1,11 +1,16 @@
 body{
     font-family: 'Roboto';
 }
+
+.hero{
+    background-color: #1F2937;
+    
+}
+
 .header{
     display: flex;
-    padding: 0 20px;
-    background-color: #1F2937;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .header-logo{
@@ -18,6 +23,21 @@ body{
 .header-links{
     display:flex;
     gap:10px;
+}
+
+.header-links,
+.hero-subtext{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero-maintext{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-content img{
+    width:400px;
+    height: 200px;
 }
