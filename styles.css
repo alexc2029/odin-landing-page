@@ -4,7 +4,7 @@ body{
 
 .hero{
     background-color: #1F2937;
-    
+    padding: 20px 300px 100px;
 }
 
 .header{
@@ -38,6 +38,29 @@ body{
 }
 
 .hero-content img{
-    width:400px;
+    width: 500px;
     height: 200px;
+}
+
+.hero-content{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 450px;
+    gap: 10px;
+}
+
+.hero-signup button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    font-weight: 900;
+    border-radius: 8px;
+    padding: 3px 15px;
+    border: none;
 }
