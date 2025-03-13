@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
 }
 
 .hero{
@@ -97,3 +97,22 @@ body{
     text-align: center;
 }
 
+.quote{
+    background-color: #E5E7EB;
+    padding: 100px 300px 100px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.quote-content{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-author{
+    margin-left: auto;
+    font-weight: 900;
+}
