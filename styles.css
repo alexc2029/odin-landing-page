@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -142,4 +148,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px;
 }
