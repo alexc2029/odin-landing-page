@@ -1,1 +1,1 @@
-This is a project I am doing to practice and demonstrate the HTML and CSS skills (especially flexbox) that I have accumulated so far by following The Odin Project curriculum.
+This is my landing page project for TOP. It has helped me get much more comfortable with CSS and I have also learned some useful things by having to face new problems in CSS.
